@@ -9,7 +9,7 @@ function printBadges(names) {
 function tailsNeverFails() {
   let start = 0;
   while ( Math.random() >= 0.5) {
-    count = ++start
+    let count = ++start
   }
   console.log(`You got ${++count} tails in a row!`);
 }
